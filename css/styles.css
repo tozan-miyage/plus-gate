@@ -1,0 +1,306 @@
+.plus-gate-font{
+    font-family: 'Open Sans',
+    'Noto Sans JP',
+    sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    margin:0 auto;
+    padding:0;
+    padding: 2rem;
+}
+
+.top-site-img{
+    width: 100%;
+}
+
+
+.level-headding{
+    text-align: left;
+    margin: 3rem 0 0;
+    position: sticky;
+    top:0;
+    /* 縦スクロールに追従 */
+    z-index: 100;
+    /* z-indexで最前面に持ってくる */
+}
+
+.exercise-level {
+    margin:3rem 0 0;
+    cursor: pointer;
+}
+
+.exercise {
+    margin:0 0 3rem 0;
+}
+
+
+
+.exercise-area {
+    margin: 256px 0 32px;
+}
+.mini-font {
+    font-size: 12px;
+}
+.accordion {
+display: none;
+}
+
+ul ol {
+    list-style-type: disc;
+}
+
+h3 {
+    color:red;
+}
+
+h4{
+    font-family:serif;
+}
+
+h5{
+    font-size: 64px;
+}
+
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color:yellowgreen;
+}
+
+a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+.margintop32px {
+    margin: 64px 0 32px;
+}
+
+.exercise4-img{
+    width: 300px;
+    height: auto;
+}
+
+.exercise4-img2{
+    width: 200px;
+    height: auto;
+}
+
+
+.ul-disc{
+    list-style-type: disc;
+}
+
+.ol-none{
+    list-style: none;
+}
+
+.html-exercise6-p1{
+    color:#68b300;
+}
+
+.html-exercise6-p2{
+    color:#bb01cc;
+}
+
+.html-exercise8-h1{
+    background-color: #e0d666;
+    width: 500px;
+    height: 100px;
+}
+
+.html-exercise8-img{
+    width:300px;
+height: 230px;
+}
+
+.html-exercise9-li-1{
+    color:#978b00;
+}
+
+.html-exercise9-li-2{
+    color:#1fcf0f;
+    font-size:2rem;
+
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.header-lesson{
+    height: 60px;
+    background-color: gainsboro;
+}
+
+.header-lesson-logo-p{
+    line-height: 60px;
+    font-size: 1.6rem;
+    float: left;
+    margin: 0 1rem;
+}
+
+.header-lesson-li{
+    float: left;
+    line-height: 60px;
+    margin: 0 1rem;
+    list-style: none;
+    color: grey;
+}
+
+.header-lesson-f{
+    height: 60px;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.header-lesson-logo-p-f{
+    line-height: 60px;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+}
+
+.header-lesson-ul-f{
+    display: flex;
+
+}
+
+.header-lesson-li-f{
+    line-height: 60px;
+    margin: 0 1rem;
+    list-style: none;
+    color: grey;
+}
+
+.div-lesson-div-1{
+    height: 60px;
+    background-color: #e0d666;
+}
+
+.div-lesson-div-2{
+    width: 300px;
+    height: 60px;
+    background-color: #e0d666;
+}
+
+.div-lesson-p-1{
+    line-height: 60px;
+}
+
+.div-lesson-p-2{
+    line-height: 60px;
+    margin: 0 0 0 1rem;
+}
+
+.div-lesson-p-3{
+    line-height: 60px;
+    text-align: center;
+}
+
+.div-lesson2-div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div-lesson2-div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+.div-lesson2-div3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.div-lesson2-div1-float {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.div-lesson2-div2-float {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+
+}
+.div-lesson2-div3-float {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+.div-lesson-div-clear{
+    clear: left;
+}
+
+.div-lesson-wrapper-flex{
+    display: flex;
+}
+
+.div-lesson2-div1-flex {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div-lesson2-div2-flex {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+.div-lesson2-div3-flex {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.exercise-card {
+    width:240px;
+    height: 320px;
+    border: 1px solid black;
+    /* box-sizing: content-box; */
+}
+.exercise-card-1 {
+    width:240px;
+    height: 320px;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.exercise-card-photo {
+    width:240px;
+    height: 160px;
+    /* box-sizing: border-box; */
+
+}
+
+.exercise-card-photo img {
+    width: 100%;
+}
+
+.exercise-card-comment {
+    width:240px;
+    height: 160px;
+    background-color: #f9f9fa;
+    font-size:13px;
+    padding:16px;
+    font-family: serif;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+
+
+
+
+
+

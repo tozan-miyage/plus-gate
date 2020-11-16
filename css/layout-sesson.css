@@ -1,0 +1,79 @@
+.mini-font{
+    font-size:12px;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-step{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+}
+
+.header-step-addflex{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+}
+
+.header-step-addspace-between{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    /* padding: 6px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-step-addpadding {
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header{
+    width: 128px;
+    height: 48px;
+    background-color: brown;
+}
+
+.right-header{
+    width:512px;
+    height: 48px;
+    background-color:gray;
+}
+
+.exercise-area{
+    margin: 256px 0 32px;
+}
+
+.margintop32px {
+    margin: 64px 0 32px;
+}
+
+.right-header-okawari{
+    width:512px;
+    height: 48px;
+    background-color:gray;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.rectangle{
+    width: 100px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50px;
+}

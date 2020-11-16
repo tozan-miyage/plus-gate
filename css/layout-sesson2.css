@@ -1,0 +1,113 @@
+.container-layoutlesson2{
+    width: 100%;
+    height: 620px;
+
+}
+
+.container-layoutlesson2-step{
+    width: 100%;
+    height: 620px;
+    border: dotted ;
+}
+
+
+
+.header-layoutlesson2{
+    width: 100%;
+    height: 60px;
+    background-color: darkgray;
+}
+
+.main-layoutlesson2{
+    display: flex;
+}
+
+.main-layoutlesson2-step{   
+    width: 100%;
+    height: 500px;
+    border: double 1px red;
+}
+
+.main-layoutlesson2-step2{   
+    width: 100%;
+    height: 500px;
+    border: double 1px red;
+    display: flex;
+}
+
+.article-layoutlesson2{
+    width: 70%;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.aside-layoutlesson2 {
+    width: 30%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+.footer-layoutlesson2{
+    
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.margin-top-35rem{
+    margin-top: 35rem;
+}
+
+.article-layoutolesson2-wrapper{
+    /* margin: 1rem; */
+    padding:1rem;
+}
+
+.heading-layoutolesson2{
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    /* margin: 1rem; */
+}
+
+.main-layoutlesson2-okawari{
+    display: flex;
+    padding: 1rem 0;
+}
+
+.article-layoutlesson2-okawari{
+    width: 50%;
+    height: 400px;
+    /* background-color: whitesmoke; */
+    /* margin: 0 0 0 1rem; */
+}
+.subheading-okawari{
+    width: 100%;
+    height: 122px;
+    background-color: whitesmoke;
+    margin: 0 0 1rem 0;
+}
+
+.aside-layoutlesson2-okawari{
+    width: 50%;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0 0 0 1rem;
+}
+
+.test{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+}
+
+.test2{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    position: absolute;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+}
