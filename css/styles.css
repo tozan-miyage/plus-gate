@@ -40,6 +40,16 @@
 .exercise-area {
     margin: 256px 0 32px;
 }
+
+.exercise-exposition {
+    background-color: #f8faf8;
+    height: 3rem;
+    line-height: 3rem;
+    border-left: solid #61dd56 .7rem;
+    padding-left: 1rem;
+    margin: 3rem 0;
+}
+
 .mini-font {
     font-size: 12px;
 }
